@@ -1,26 +1,51 @@
-# Polling Evidence and Election Trends: 2016 U.S. Election Data Visualization
+# 🗳️ 2016 U.S. Election Polling — Data Visualization & Storytelling
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-This project analyzes a 2016 U.S. election polling dataset using Python-based exploratory data analysis and data visualization. The goal was to move from a raw polling dataset to a clearer visual story about pollster volume, voter population types, polling adjustments, and the Clinton–Trump polling margin over time.
+> From raw polling data to a clear visual story — exploratory data analysis and narrative visualization of the 2016 U.S. presidential election.
 
-The project was completed as part of a data visualization module and applies principles of visual design, exploratory visualization, decluttering, and data storytelling.
+## 📌 Overview
 
-## Objectives
+This project transforms a raw 2016 U.S. election polling dataset into a series of meaningful visualizations, applying data storytelling principles: decluttering, annotation, visual hierarchy, and narrative flow.
 
-The main objectives of this project were to:
+## 🎯 Key Questions Explored
+- How did the Clinton–Trump polling margin evolve over time?
+- Which pollsters produced the most volume of polls?
+- How do population type and polling methodology affect results?
+- What role did polling adjustments play in reported numbers?
 
-- understand the structure of the polling dataset;
-- create a data dictionary for the most important variables;
-- explore sample size, pollster quality, population type, and polling adjustments;
-- develop final storytelling visualizations;
-- communicate the main findings clearly through a written report.
+## 📊 Visualizations Created
+- **Time series** — Clinton vs. Trump polling margin over the campaign
+- **Bar charts** — Pollster volume and frequency ranking
+- **Distribution plots** — Polling adjustments across different methodologies
+- **Annotated line charts** — Key events mapped onto polling trend lines
 
-## Tools Used
+## 🛠️ Design Principles Applied
+- Decluttering (removing chartjunk)
+- Strategic use of color to guide attention
+- Annotations to highlight key narrative moments
+- Accessible color palettes
 
-- Python
-- Google Colab
-- pandas
-- NumPy
-- matplotlib
-- seaborn
+## 🛠️ Tech Stack
+`Python` · `pandas` · `Matplotlib` · `Seaborn` · `Jupyter Notebook`
+
+## 📂 Files
+| File | Description |
+|---|---|
+| `STA4320_Projet1.ipynb` | Main analysis notebook |
+| `Rapport-Projet1-Sta4320.pdf` | Full written report (French) |
+
+## 💼 Business Applications
+- Public opinion tracking and trend analysis
+- Political risk assessment
+- Survey data visualization for research firms
+
+## 🚀 Run Locally
+```bash
+git clone https://github.com/aichalf/Polling-Evidence-and-Election-Trends-2016-U.S.-Election-Data-Visualization
+pip install pandas matplotlib seaborn jupyter
+jupyter notebook STA4320_Projet1.ipynb
+```
+
+## 👩‍💻 Author
+**Aicha Lfakir** · [LinkedIn](https://linkedin.com/in/aicha-lfakir) · [GitHub](https://github.com/aichalf)
